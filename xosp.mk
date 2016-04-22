@@ -5,6 +5,8 @@ TARGET_SCREEN_WIDTH := 768
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 
+$(call inherit-product, vendor/xosp/config/xosp.mk)
+
 # Enhanced NFC
 $(call inherit-product, vendor/xosp/config/nfc_enhanced.mk)
 
